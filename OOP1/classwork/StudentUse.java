@@ -21,9 +21,10 @@ public class StudentUse {
     s2.name = "Ram";
     s2.Rollnumber = 8;
 
-
+System.out.println(s1);
     System.out.println(s1.name);
     System.out.println(s2.name);
-
+    System.out.println(s1.Rollnumber);
+    System.out.println(s2.Rollnumber);
 }
 }
