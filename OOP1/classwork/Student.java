@@ -2,18 +2,37 @@ package OOP1.classwork;
 
 public class Student {
     public String name;
-    private int Rollnumber;
+    private final int Rollnumber;
 
-    public void SetrollNo(int rn) 
+    private static int NumOfStudent; 
+    
+    public static int GetNumOfStudent() 
     {
-        if(rn <= 0) 
-        {
-            return;
-        }
-        Rollnumber = rn; 
+        return NumOfStudent;
     }
-        public int getRollNo() 
+
+    public Student(String name , int Rollnumber) {
+
+        this.name = name;
+       this.Rollnumber = Rollnumber;
+       NumOfStudent++;
+    }
+
+    // public void SetrollNo(int rn) 
+    // {
+    //     if(rn <= 0) 
+    //     {
+    //         return;
+    //     }
+    //     Rollnumber = rn; 
+    // }
+        // public int getRollNo() 
+        // {
+        //     return Rollnumber;
+        // }
+
+        public void print() 
         {
-            return Rollnumber;
+            System.out.println(name +":" + Rollnumber);
         }
 }
