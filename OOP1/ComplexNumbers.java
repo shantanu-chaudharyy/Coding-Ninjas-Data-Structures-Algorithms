@@ -1,5 +1,4 @@
 package OOP1;
-
 public class ComplexNumbers {
 	// Complete this class
     private int real;
