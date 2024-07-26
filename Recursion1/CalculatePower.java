@@ -5,23 +5,23 @@ import java.util.Scanner;
 public class CalculatePower {
 
 	
-        public static int CalPow(int x , int n){
+        public static long CalPow(long  x , int n){
             
             if(n == 0){
                 return 1;
             }
             
-            int res = CalPow( x,n-1)*x;
-            return res;
+         long ans = CalPow( x,n-1)*x;
+           return ans;
         }
     
         public static void main(String[] args) {
             
             Scanner scan = new Scanner(System.in);
-            int x = scan.nextInt();
+            long x = scan.nextLong();
             int n = scan.nextInt();
 
-            int ans = CalPow(x, n);
+            long ans = CalPow(x, n);
             System.out.println(ans);
 
         }
