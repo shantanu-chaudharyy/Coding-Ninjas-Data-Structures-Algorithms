@@ -6,6 +6,10 @@ public class SubSequences2 {
 // Second call ; YZ
 // Third call ; Z
 // Fourth call ; ""
+// fifth call ; Z
+// sixth call ; YZ
+// seventh call ; XYZ
+
 
     public static String[] findSubsequences(String str){ 
 		
