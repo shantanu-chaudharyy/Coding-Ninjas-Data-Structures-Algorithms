@@ -17,8 +17,8 @@ public class PairStars {
         }
 public static void main(String[] args) {
         
-    String s = "aaabbb";
-    System.out.println(addStars(s));
+    String S = "aaabbb";
+    System.out.println(addStars(S)); 
     }
     
 }
