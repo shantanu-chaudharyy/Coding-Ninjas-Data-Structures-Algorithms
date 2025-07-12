@@ -6,21 +6,23 @@ public class VehicleUse {
 
 	public static void main(String[] args) {
 		Vehicle v = new Vehicle(20);
+
+		System.out.println(v.next + " ");
 		// Vehicle v = new Car(1,2);
 		
 //		v.color = "Black";
 //		v.setMaxSpeed(10);
 		//v.print();
 		
-		int n;
-		Scanner s = new Scanner(System.in);
-		n = s.nextInt();
+		// int n;
+		// Scanner s = new Scanner(System.in);
+		// n = s.nextInt();
 	
-		if (n == 0) {
-			v = new Car(10,20);
-		} else {
+		// if (n == 0) {
+		// 	v = new Car(10,20);
+		// } else {
 			//v = new Vehicle(20);
-		}
+		// }
 		//v.isConvertible();
 		//v.print();
 		
